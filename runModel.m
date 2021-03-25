@@ -98,9 +98,9 @@ G.aboveTheLine = 0; % Dalezman's above the line scoring?
 % WardFreeSerial10;
 
 % ---------free recall grouping (Simulation 6)
-G.x = [.005 .3 .5 .003 ...
-     .45 6];
-freeRecallGrouping;
+% G.x = [.005 .3 .5 .003 ...
+%      .45 6];
+% freeRecallGrouping;
 
 %---------Dalezman (Simulation 7)
 % G.x = [.005 .3 .5 .003 ...
@@ -137,6 +137,11 @@ freeRecallGrouping;
 % G.x = [.005 0.3 .5 .005 ...
 %     0.65 6];
 % freeRecallDelay; % immediate vs delayed recall vs CD
+
+% ------- Future 1d/1e
+G.x = [.005 .3 .5 .003 ...
+     .45 1];
+freeRecallCreative;
 
 
 
